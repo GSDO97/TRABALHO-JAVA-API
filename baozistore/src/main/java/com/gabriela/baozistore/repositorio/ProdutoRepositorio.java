@@ -1,0 +1,9 @@
+package com.gabriela.baozistore.repositorio;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.gabriela.baozistore.model.Produto;
+
+public interface ProdutoRepositorio extends JpaRepository<Produto, Long> {
+
+}
